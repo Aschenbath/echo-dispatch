@@ -1,0 +1,14 @@
+{
+  "name": "echo-dispatch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A turn-based puzzle about cooperating with recordings of your past self.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
